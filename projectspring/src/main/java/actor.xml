@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="actor" class="com.modelspringcollection.Actor">
+		<property name="id" value="1"></property>
+		<property name="name" value="Dard Wale Movies."></property>
+		<property name="movies">
+			<list>
+				<value>Mene Pyar kiya</value>
+				<value>DilJale</value>
+				<value>Tune dokha diya</value>
+			    <value>Ek Thi Komal</value>
+			    <value>Komal Ki Prem Kahani</value>
+			    <value>Aavara Komal</value>
+
+
+			</list>
+		</property>
+	</bean>
+</beans>
